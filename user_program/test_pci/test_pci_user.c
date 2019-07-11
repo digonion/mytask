@@ -25,6 +25,8 @@ int open_device(const char* filename)
 
 	printf("success: open device %s\n", filename);
 	return fd;
+
+
 }
 
 void close_device(int fd)
@@ -206,3 +208,6 @@ int main(int argc, char const* argv[])
 	close_device(fd);
 	return 0;
 }
+
+
+//fuck
